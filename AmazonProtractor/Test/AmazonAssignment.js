@@ -19,10 +19,10 @@ describe('Amazon Protractor Assignment', function() {
   
   var login_page = require('../Pages/LoginPage.js');
   it('Sign in', function(){
-	  var usern = ""
+	  var usern = "amg.15.09.94@gmail.com"
 	  login_page.username(usern);
 	  login_page.ctnbtn();
-	  var pass = ""
+	  var pass = "7mahe7*7"
 	  login_page.password(pass);
 	  login_page.lgnbtn();
 	  
